@@ -9,7 +9,7 @@ public class Time{
         int hours = seconds/3600;
         int remaininghour = seconds % 3600;
         int minutes = remaininghour/60;
-        int seconds2 = minutes % 60;
+        int seconds2 = remaininghour%60;
         
         
         System.out.print(seconds + (" seconds = ") + hours + (" hours, ") + minutes + (" minutes, ") + (" and ") +  seconds2 + (" seconds"));
